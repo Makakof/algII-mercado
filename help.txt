@@ -1,0 +1,57 @@
+
+=====================================Objetivo==========================================
+Esse comando tem o intuito de ajudar e esclarecer tomadas de decisões feitas a respei-
+to desse trabalho.
+=====================================Organização=======================================
+Optei por separar o trabalho em arquivos .c e .h para melhor organizacao e visualiza-
+cao por parte de todos, alem de claro por meu conhecimento em pratica.
+=====================================Comandos==========================================
+Estruturas
+Foi escolhido listas semplesmente encadeadas sem cabeca por serem simples e por resolve-
+rem todas as situações propostas pelo enunciado do trabalho.
+
+Entrada de dados
+Segui a sugestao do Professor Ronaldo optando por utilizar o proprio buffer para armaze-
+nar as informacoes e preencher os dado a medida que fossem necessarios. Nao foram feitas
+validacoes a respeito disso, com excecao ao campo codigo em certos momentos, pois foi
+passado para gente que nao seria uma preocupacao.
+
+Modularizacao
+Tentei ao maximo modularizar tudo que fosse possivel quando necessario, criando funcoes
+mais especificas que realizassem somente uma tarefa.
+
+Inserir, Excluir e Atualizar
+Esses tres comandos seguem funcoes basicas de modificacao de uma lista em adicao as de
+insercao, busca e remocao.
+
+Consultar
+Essa funcao tambem segue ao padrao ao percorrer uma lista e exibir uma informacao. A uni-
+ca mudanca feita e que para mim faz mais sentido que os itens sejam exibidos em ordem al-
+fabetica ja que a busca e feita por um trecho de palavra.
+
+Relatorio
+Esse funcao foi a que mais deu trabalho de ser feita. Tentei não usar dois laços ani-
+nhados mas não consegui e a versão final acabando indo com dois aninhados e um paralelo.
+Isso fez com que os gastos de eficiencia subissem, deixando de seguir um possivel padrao
+esperado
+
+Importar
+Aqui seguimos a ideia base de preencher a lista atraves de uma arquivo mas com uma dife-
+renca. Para mim nao faz sentido deixar de carregar os produtos que estao corretos porque
+somente um deles esta errado, afinal ja li o produto do arquivo, ja carreguei ele para a
+memoria entao nao usar seria disperdidicio de recursos. Dito isso fiz uma alteracao onde
+exibe a quantidade de produtos que de fato foram importados e ao lado a quantidade total
+de produtos, mostrando quais que nao foram importados.
+
+Vender
+Esse comando trabalha acesso e atualizacao de uma estrutura dentro de uma lista, como o
+que foi dito em comandos anteriores. Aqui tambem exite uma adicao que e mostrar a quanti-
+dade do produto durante a venda, para que o usuario saiba quantos    ainda tem em estoque.
+
+Salvando produtos
+Aqui eu acabei não conseguindo fazer um ganho de eificiencia. Apesar de saber que poderia
+ja destruir uma lista de produtos para montar a lista de reposicao quando tentei implemen-
+tar a ideia acabou por nao dar certo por conta de erros meus, sejam de codigo ou de nao
+pedir ajuda antes para poder de fato tirar a ideia do papel e por em pratica. Dito isso
+a funcao faz o esperado mas com altos cursos de eficiencia.
+
