@@ -2,16 +2,11 @@
 
 ### 1. Descrição
 
-O minimercado CapiLagoa vem enfrentando uma série de desafios, incluindo a concor-
-rência de grandes redes varejistas e a necessidade de se adaptar às novas tecnologias.
+O minimercado CapiLagoa vem enfrentando uma série de desafios, incluindo a concorrência de grandes redes varejistas e a necessidade de se adaptar às novas tecnologias.
+O proprietário do minimercado, popularmente conhecido como “seu Canindé”, ficou sabendo que um grupo de pessoas eram especialistas em resolver problemas de tecnolo-
+gia em uma Universidade de sua cidade. Seu Canindé decidiu então procurar ajuda para implantar um sistema informtatizado para controloar seu negócio. Sua missão é
+ajudar seu Canindé criando um sistema que atenda as necessidades do CapiLagoa. Para isso, o sistema deve atender os requisitos descritos nas seções 1.1 e 1.2.
 
-O proprietário do minimercado, popularmente conhecido como “seu Canindé”, ficou
-
-sabendo que um grupo de pessoas eram especialistas em resolver problemas de tecnolo-
-gia em uma Universidade de sua cidade. Seu Canindé decidiu então procurar ajuda
-para implantar um sistema informtatizado para controloar seu negócio. Sua missão é
-ajudar seu Canindé criando um sistema que atenda as necessidades do CapiLagoa. Para
-isso, o sistema deve atender os requisitos descritos nas seções 1.1 e 1.2.
 ### 1.1 Dados dos Produtos
 Seu Canindé considera importante que as seguintes informações sejam guardadas para
 cada produto:
